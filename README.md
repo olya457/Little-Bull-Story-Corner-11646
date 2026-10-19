@@ -1,97 +1,47 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Little Bull Story Corner
 
-# Getting Started
+React Native + TypeScript reading companion with React Navigation.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
-
-## Step 1: Start Metro
-
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
-
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Run
 
 ```sh
-# Using npm
+npm install
 npm start
-
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Build and run your app
-
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
 npm run ios
-
-# OR using Yarn
-yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+For Android, start an emulator or connect a device, then run `npm run android`.
+After installing native packages, run `pod install` from `ios` using a compatible Ruby/CocoaPods installation.
+If port 8081 is used by another project, start Metro with `npm start -- --port 8082` and run the app with the matching `--port 8082` option.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## Features
 
-## Step 3: Modify your app
+- Four-second WebView splash animation and first-launch onboarding.
+- Personal library with local image uploads, collections, search, genres, ratings, notes and page progress.
+- Pages-per-day, finish-date and reading-time calculators with saved results and native sharing.
+- Reading sessions with local illustrated scenes, synthesized ambient audio, goals, pause/resume, timestamped notes and session history.
+- The supplied 120 literary terms and 35 matching tasks, with timed quizzes and saved best scores.
+- A local pass-the-phone game for two to four user-named teams, configurable rounds and turn duration, shuffled supplied words, skips, scores and rankings.
+- AsyncStorage persistence. No sample books, reading sessions, saved calculations or team names are inserted.
 
-Now that you have successfully run the app, let's make changes!
+Timers pause when the app leaves the foreground. Ambient sound is generated locally in a WebView; it does not download audio. Book cover photos are copied into local persistent data. All bundled illustrations come from `src/assets`.
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## Structure
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+- `src/assets`: supplied illustrations and asset references
+- `src/components`: shared controls, layouts, sheets and ambient audio
+- `src/data`: supplied dictionary, quiz tasks and game words
+- `src/navigation`: typed stack and bottom-tab navigation
+- `src/screens`: library, calculators, reading, learning and game flows
+- `src/store`: data models, hydration and persistence
+- `src/utils`: calculations, randomization and pause-aware clock
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+## Checks
 
-## Congratulations! :tada:
+```sh
+npx tsc --noEmit
+npm test -- --runInBand
+npm run lint
+```
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+The tests cover imported content integrity, date boundaries, reading-time calculations, fresh and restored storage, and timer pause/resume/reset behavior.

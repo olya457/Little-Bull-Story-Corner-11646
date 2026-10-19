@@ -1,0 +1,962 @@
+[
+  {
+    "id": "0",
+    "title": "Unreliable Narrator",
+    "category": "Narrative",
+    "definition": "A storyteller whose account cannot be fully trusted.",
+    "explanation": "The narrator may distort events because of bias, limited knowledge, memory gaps, self-deception, emotional instability, or deliberate dishonesty. Readers must compare what the narrator says with clues in the story to understand what may actually be happening.",
+    "example": "Stevens in The Remains of the Day minimizes his regrets, while the reader gradually recognizes the emotions and choices he refuses to confront."
+  },
+  {
+    "id": "1",
+    "title": "Foreshadowing",
+    "category": "Narrative Technique",
+    "definition": "An early hint that suggests something important will happen later.",
+    "explanation": "Foreshadowing can appear through dialogue, objects, weather, recurring imagery, unusual details, or seemingly casual comments. It prepares the reader for later events without revealing them directly.",
+    "example": "A character repeatedly noticing a damaged bridge may signal that the bridge will become important later in the story."
+  },
+  {
+    "id": "2",
+    "title": "Flashback",
+    "category": "Narrative Structure",
+    "definition": "A scene that moves the story back to an earlier event.",
+    "explanation": "Flashbacks reveal information about a character’s past, explain motivations, deepen relationships, or provide context that changes how the present storyline is understood.",
+    "example": "A detective remembers a childhood incident that explains why a current case feels personally important."
+  },
+  {
+    "id": "3",
+    "title": "Flashforward",
+    "category": "Narrative Structure",
+    "definition": "A scene that temporarily shows events from the future.",
+    "explanation": "Flashforwards can create anticipation, mystery, or dramatic tension by giving the reader a glimpse of what may happen before returning to the present timeline.",
+    "example": "A novel opens with the protagonist standing alone at a train station ten years later, then returns to the beginning of the story."
+  },
+  {
+    "id": "4",
+    "title": "Epistolary Novel",
+    "category": "Form",
+    "definition": "A story told through letters, messages, journals, or documents.",
+    "explanation": "Epistolary fiction presents events through written records created by characters. This format often creates intimacy while also limiting the reader to incomplete or subjective information.",
+    "example": "A novel may tell its entire story through emails exchanged between two characters who never meet in person."
+  },
+  {
+    "id": "5",
+    "title": "Stream of Consciousness",
+    "category": "Narrative Style",
+    "definition": "Writing that follows a character’s continuous flow of thoughts.",
+    "explanation": "This technique imitates the way thoughts move naturally between memories, sensations, emotions, observations, and associations. Grammar and chronology may become less structured as the reader experiences the character’s mind directly.",
+    "example": "A character walking home may move rapidly from noticing traffic to remembering childhood, worrying about tomorrow, and recalling a song."
+  },
+  {
+    "id": "6",
+    "title": "Magical Realism",
+    "category": "Genre",
+    "definition": "Realistic fiction where magical events are treated as ordinary.",
+    "explanation": "Magical realism places supernatural or impossible elements inside an otherwise recognizable world. Characters usually accept these events without the surprise expected in traditional fantasy.",
+    "example": "A family may calmly accept that one relative has lived for two hundred years as if it were simply part of everyday life."
+  },
+  {
+    "id": "7",
+    "title": "Metafiction",
+    "category": "Narrative Technique",
+    "definition": "Fiction that draws attention to the fact that it is a constructed story.",
+    "explanation": "Metafiction may include characters who know they are fictional, narrators who discuss storytelling, or plots that directly question how stories are created and interpreted.",
+    "example": "A narrator interrupts the story to argue with the reader about whether the ending should be changed."
+  },
+  {
+    "id": "8",
+    "title": "Bildungsroman",
+    "category": "Genre",
+    "definition": "A novel focused on a character’s growth from youth toward maturity.",
+    "explanation": "A Bildungsroman follows emotional, intellectual, social, or moral development. The protagonist usually faces experiences that challenge their beliefs and gradually shape their identity.",
+    "example": "A young character leaves home, experiences independence and failure, and returns with a more mature understanding of themselves."
+  },
+  {
+    "id": "9",
+    "title": "Dramatic Irony",
+    "category": "Literary Device",
+    "definition": "The reader knows something important that a character does not.",
+    "explanation": "Dramatic irony creates tension, humor, or tragedy because readers understand the true situation while characters act on incomplete or incorrect information.",
+    "example": "The reader knows that a visitor is secretly the villain, while the protagonist welcomes them as a trusted friend."
+  },
+  {
+    "id": "10",
+    "title": "Verbal Irony",
+    "category": "Literary Device",
+    "definition": "A speaker says one thing while meaning something different.",
+    "explanation": "Verbal irony depends on contrast between literal words and intended meaning. Tone, context, and situation help the reader recognize the difference.",
+    "example": "After being caught in a sudden storm without an umbrella, a character says, “Perfect weather.”"
+  },
+  {
+    "id": "11",
+    "title": "Situational Irony",
+    "category": "Literary Device",
+    "definition": "The outcome of a situation is very different from what is expected.",
+    "explanation": "Situational irony occurs when events produce an unexpected result that contradicts normal assumptions or the expectations established by the story.",
+    "example": "A professional security expert accidentally locks themselves out of their own house."
+  },
+  {
+    "id": "12",
+    "title": "Motif",
+    "category": "Literary Device",
+    "definition": "A recurring element that supports a larger theme.",
+    "explanation": "A motif may be an image, object, phrase, color, sound, place, or situation that appears repeatedly and gains meaning through repetition.",
+    "example": "Repeated references to locked doors may reinforce a story’s theme of isolation and emotional distance."
+  },
+  {
+    "id": "13",
+    "title": "Symbolism",
+    "category": "Literary Device",
+    "definition": "The use of an object, image, or action to represent a deeper idea.",
+    "explanation": "Symbols add additional layers of meaning beyond their literal role in the story. Their significance often develops through context and repetition.",
+    "example": "A dying garden may symbolize the deterioration of a family relationship."
+  },
+  {
+    "id": "14",
+    "title": "Allegory",
+    "category": "Narrative Form",
+    "definition": "A story in which characters and events represent broader ideas.",
+    "explanation": "Allegories operate on two levels: the literal story and a symbolic meaning connected to politics, morality, philosophy, religion, or society.",
+    "example": "A fictional society of animals may represent different social classes or political groups."
+  },
+  {
+    "id": "15",
+    "title": "Archetype",
+    "category": "Character & Theme",
+    "definition": "A recurring character type, symbol, or pattern found across many stories.",
+    "explanation": "Archetypes are recognizable narrative models such as the mentor, rebel, hero, trickster, or journey into the unknown. Writers can follow, modify, or deliberately subvert them.",
+    "example": "An experienced guide who prepares the protagonist for a dangerous journey represents the mentor archetype."
+  },
+  {
+    "id": "16",
+    "title": "Antihero",
+    "category": "Character",
+    "definition": "A central character who lacks traditional heroic qualities.",
+    "explanation": "Antiheroes may be selfish, dishonest, fearful, cynical, or morally complicated while still remaining the main character whose journey drives the story.",
+    "example": "A thief who helps others only when it benefits them may still become the protagonist readers follow."
+  },
+  {
+    "id": "17",
+    "title": "Foil Character",
+    "category": "Character",
+    "definition": "A character whose qualities contrast with another character.",
+    "explanation": "A foil makes another character’s personality, values, strengths, or weaknesses easier to recognize by presenting an opposing set of traits.",
+    "example": "A highly cautious friend may highlight the protagonist’s impulsive personality."
+  },
+  {
+    "id": "18",
+    "title": "Character Arc",
+    "category": "Character",
+    "definition": "The internal development a character experiences across a story.",
+    "explanation": "A character arc tracks how beliefs, behavior, relationships, or identity change because of events in the narrative. Some characters grow positively, while others decline or remain deliberately unchanged.",
+    "example": "A character who begins afraid of responsibility may gradually learn to lead others confidently."
+  },
+  {
+    "id": "19",
+    "title": "Point of View",
+    "category": "Narrative",
+    "definition": "The perspective from which a story is told.",
+    "explanation": "Point of view determines what information the reader receives and how closely they experience a character’s thoughts. Common forms include first person, second person, third-person limited, and third-person omniscient.",
+    "example": "A first-person narrator can describe only what they personally know, remember, or believe."
+  },
+  {
+    "id": "20",
+    "title": "Third-Person Limited",
+    "category": "Narrative",
+    "definition": "A narrator follows one character’s perspective at a time.",
+    "explanation": "The story uses third-person pronouns while giving readers access primarily to one character’s thoughts, emotions, and observations. Other characters remain partly mysterious.",
+    "example": "The narrator can describe what Maya thinks about the argument but cannot directly reveal what her brother is thinking."
+  },
+  {
+    "id": "21",
+    "title": "Third-Person Omniscient",
+    "category": "Narrative",
+    "definition": "A narrator can access multiple characters’ thoughts and information.",
+    "explanation": "An omniscient narrator may move between characters, reveal events happening elsewhere, provide historical context, or explain information that no single character knows.",
+    "example": "One chapter may reveal both sides of an argument by showing what each character privately believes."
+  },
+  {
+    "id": "22",
+    "title": "In Medias Res",
+    "category": "Narrative Structure",
+    "definition": "A story that begins in the middle of ongoing action.",
+    "explanation": "Instead of starting with background information, the narrative places the reader directly inside an important event and explains earlier circumstances later.",
+    "example": "A novel begins with the protagonist escaping from a burning building before explaining how the fire started."
+  },
+  {
+    "id": "23",
+    "title": "Frame Narrative",
+    "category": "Narrative Structure",
+    "definition": "A story that contains another story within it.",
+    "explanation": "A frame narrative uses an outer storyline to introduce or surround one or more inner stories. The relationship between these layers can influence how readers interpret the events.",
+    "example": "Travelers gather during a journey and each tells a different story."
+  },
+  {
+    "id": "24",
+    "title": "Circular Narrative",
+    "category": "Narrative Structure",
+    "definition": "A story that ends in a place or situation similar to where it began.",
+    "explanation": "Circular narratives create a sense of completion, repetition, inevitability, or transformation by returning to an earlier image, setting, phrase, or event.",
+    "example": "A novel begins and ends at the same train station, but the protagonist understands the place completely differently at the end."
+  },
+  {
+    "id": "25",
+    "title": "Cliffhanger",
+    "category": "Narrative Technique",
+    "definition": "An unresolved moment designed to create strong anticipation.",
+    "explanation": "Cliffhangers often end chapters, episodes, or sections at a moment of danger, discovery, or uncertainty, encouraging the reader to continue immediately.",
+    "example": "A chapter ends just as the protagonist opens a letter that could reveal who betrayed them."
+  },
+  {
+    "id": "26",
+    "title": "Red Herring",
+    "category": "Mystery Technique",
+    "definition": "A misleading clue intended to distract from the truth.",
+    "explanation": "Red herrings direct attention toward an incorrect suspect, explanation, or solution while preserving the real answer for later.",
+    "example": "Suspicious fingerprints appear to identify one suspect, but they later prove unrelated to the crime."
+  },
+  {
+    "id": "27",
+    "title": "MacGuffin",
+    "category": "Plot Device",
+    "definition": "An object or goal that motivates the plot more than it matters itself.",
+    "explanation": "A MacGuffin gives characters something to pursue, protect, recover, or discover. Its exact nature may be less important than the conflict it creates.",
+    "example": "Several characters compete to find a mysterious briefcase, although the story never reveals what is inside."
+  },
+  {
+    "id": "28",
+    "title": "Chekhov’s Gun",
+    "category": "Narrative Principle",
+    "definition": "An important detail introduced early should later have a purpose.",
+    "explanation": "The principle suggests that prominent narrative elements should contribute meaningfully to the story rather than existing without consequence.",
+    "example": "If a broken key is carefully mentioned in the first chapter, it may later become essential to solving the central mystery."
+  },
+  {
+    "id": "29",
+    "title": "Deus Ex Machina",
+    "category": "Plot Device",
+    "definition": "A sudden unexpected solution that resolves a difficult conflict.",
+    "explanation": "This device occurs when a problem is solved by an unlikely event, new character, ability, or piece of information that was not adequately prepared earlier in the story.",
+    "example": "Just before the heroes lose, an unknown relative suddenly arrives with exactly the evidence needed to solve everything."
+  },
+  {
+    "id": "30",
+    "title": "Prologue",
+    "category": "Narrative Structure",
+    "definition": "An opening section that appears before the main story begins.",
+    "explanation": "A prologue provides information the reader may need before entering the central narrative. It can introduce an earlier event, establish the world, present a mystery, or show a scene from a different perspective.",
+    "example": "A fantasy novel opens with an ancient battle that took place centuries before the protagonist was born."
+  },
+  {
+    "id": "31",
+    "title": "Epilogue",
+    "category": "Narrative Structure",
+    "definition": "A closing section that shows what happens after the main story ends.",
+    "explanation": "An epilogue gives readers additional resolution by revealing the later lives of characters, the long-term consequences of events, or the state of the world after the central conflict is over.",
+    "example": "The final chapter jumps forward ten years to show where the main characters eventually settled."
+  },
+  {
+    "id": "32",
+    "title": "Exposition",
+    "category": "Plot Structure",
+    "definition": "The information that introduces the story’s setting, characters, and situation.",
+    "explanation": "Exposition gives readers the context needed to understand the narrative. It may explain relationships, past events, social rules, or important features of the fictional world.",
+    "example": "The opening pages establish that the protagonist has recently moved to a remote coastal town after losing their job."
+  },
+  {
+    "id": "33",
+    "title": "Inciting Incident",
+    "category": "Plot Structure",
+    "definition": "The event that disrupts normal life and starts the main conflict.",
+    "explanation": "The inciting incident pushes the protagonist into the central story. It creates a problem, opportunity, discovery, or decision that makes returning to the previous status quo difficult.",
+    "example": "A character receives a letter revealing that a family member they believed was dead may still be alive."
+  },
+  {
+    "id": "34",
+    "title": "Rising Action",
+    "category": "Plot Structure",
+    "definition": "A sequence of events that increases conflict and tension.",
+    "explanation": "Rising action develops after the story’s central problem has been introduced. Obstacles grow more difficult, relationships become complicated, and the consequences of failure become more serious.",
+    "example": "Each attempt to solve a mystery creates new suspects and exposes increasingly dangerous secrets."
+  },
+  {
+    "id": "35",
+    "title": "Climax",
+    "category": "Plot Structure",
+    "definition": "The most intense turning point of the story.",
+    "explanation": "The climax usually brings the central conflict to its highest level of tension. The protagonist must often make an important decision, confront a major opponent, or face the consequences of earlier choices.",
+    "example": "The protagonist finally confronts the person responsible for the central conspiracy."
+  },
+  {
+    "id": "36",
+    "title": "Falling Action",
+    "category": "Plot Structure",
+    "definition": "Events that occur after the climax as the conflict begins to settle.",
+    "explanation": "Falling action shows the immediate consequences of the story’s major turning point and starts resolving remaining questions or secondary conflicts.",
+    "example": "After the final confrontation, the characters return home and begin repairing the relationships damaged during the conflict."
+  },
+  {
+    "id": "37",
+    "title": "Resolution",
+    "category": "Plot Structure",
+    "definition": "The part of the story where the main conflicts reach an ending.",
+    "explanation": "Resolution explains what remains after the climax and shows how the events have changed the characters or their circumstances. It can be complete, ambiguous, or intentionally open.",
+    "example": "The protagonist accepts a new life after finally resolving the family conflict that drove the story."
+  },
+  {
+    "id": "38",
+    "title": "Open Ending",
+    "category": "Ending",
+    "definition": "An ending that leaves important questions unresolved.",
+    "explanation": "Open endings deliberately avoid providing a definitive answer about what happens next. They encourage the reader to interpret the final events and imagine possible outcomes.",
+    "example": "The novel ends as the character approaches an unknown destination without revealing whether they will stay or leave."
+  },
+  {
+    "id": "39",
+    "title": "Twist Ending",
+    "category": "Ending",
+    "definition": "A final revelation that significantly changes the meaning of earlier events.",
+    "explanation": "A strong twist ending surprises the reader while still being supported by clues that become understandable in retrospect.",
+    "example": "The final scene reveals that the person investigating the disappearance unknowingly caused it."
+  },
+  {
+    "id": "40",
+    "title": "Ambiguous Ending",
+    "category": "Ending",
+    "definition": "An ending that supports more than one reasonable interpretation.",
+    "explanation": "Ambiguous endings provide enough information for readers to form theories but deliberately avoid confirming a single explanation.",
+    "example": "The final image can be read either as proof that the supernatural event was real or as evidence of the protagonist’s imagination."
+  },
+  {
+    "id": "41",
+    "title": "Plot Twist",
+    "category": "Plot Device",
+    "definition": "An unexpected development that changes the direction or interpretation of the story.",
+    "explanation": "Plot twists overturn assumptions about characters, motives, events, or the central conflict. Effective twists usually have earlier clues that become meaningful afterward.",
+    "example": "A trusted ally is revealed to have been secretly working for the antagonist."
+  },
+  {
+    "id": "42",
+    "title": "Subplot",
+    "category": "Plot Structure",
+    "definition": "A secondary storyline that develops alongside the main plot.",
+    "explanation": "Subplots can deepen characters, explore additional themes, introduce contrast, or eventually connect with the central conflict.",
+    "example": "While solving the main mystery, the protagonist also struggles to repair a damaged relationship with a sibling."
+  },
+  {
+    "id": "43",
+    "title": "Parallel Plot",
+    "category": "Plot Structure",
+    "definition": "Two or more storylines that develop alongside each other.",
+    "explanation": "Parallel plots may follow different characters, locations, or time periods. Their similarities and differences often create additional meaning before the storylines eventually intersect.",
+    "example": "One storyline follows a scientist in the present while another follows the scientist’s ancestor a century earlier."
+  },
+  {
+    "id": "44",
+    "title": "Nonlinear Narrative",
+    "category": "Narrative Structure",
+    "definition": "A story told in an order that does not follow straightforward chronology.",
+    "explanation": "Nonlinear narratives may jump between time periods, repeat events from different viewpoints, or reveal consequences before causes.",
+    "example": "The reader sees the aftermath of a disappearance before learning what happened during the previous week."
+  },
+  {
+    "id": "45",
+    "title": "Multiple Perspectives",
+    "category": "Narrative",
+    "definition": "A story told through the viewpoints of several characters.",
+    "explanation": "Multiple perspectives allow readers to experience the same events through different beliefs, motivations, and levels of knowledge. Contradictions between narrators can become important to the plot.",
+    "example": "Alternating chapters show how two siblings remember the same childhood event very differently."
+  },
+  {
+    "id": "46",
+    "title": "Second-Person Narration",
+    "category": "Narrative",
+    "definition": "A narrative that addresses the protagonist as “you.”",
+    "explanation": "Second-person narration places the reader in an unusual relationship with the character by describing actions and experiences as if they belong directly to “you.”",
+    "example": "“You open the door even though you already know who is waiting on the other side.”"
+  },
+  {
+    "id": "47",
+    "title": "Free Indirect Discourse",
+    "category": "Narrative Technique",
+    "definition": "Third-person narration that blends closely with a character’s own thoughts and voice.",
+    "explanation": "Free indirect discourse allows narration to adopt a character’s vocabulary, opinions, and emotional perspective without using quotation marks or phrases such as “she thought.”",
+    "example": "He looked at the empty chair. Of course she had left. Why would anyone stay?"
+  },
+  {
+    "id": "48",
+    "title": "Interior Monologue",
+    "category": "Narrative Technique",
+    "definition": "Direct presentation of a character’s private thoughts.",
+    "explanation": "Interior monologue gives readers access to the internal reasoning, memories, fears, or reactions of a character, often in a more structured form than stream of consciousness.",
+    "example": "A character silently rehearses every possible response before entering an important meeting."
+  },
+  {
+    "id": "49",
+    "title": "Narrative Voice",
+    "category": "Narrative",
+    "definition": "The distinctive personality and style through which a story is told.",
+    "explanation": "Narrative voice is shaped by vocabulary, rhythm, attitude, humor, formality, and perspective. Two narrators can describe the same event in completely different ways.",
+    "example": "One narrator describes a city with cynical humor, while another presents the same streets with nostalgic affection."
+  },
+  {
+    "id": "50",
+    "title": "Tone",
+    "category": "Style",
+    "definition": "The attitude expressed by the narrator or author toward the subject.",
+    "explanation": "Tone can feel playful, bitter, formal, intimate, sarcastic, melancholic, hopeful, or threatening. It is created through word choice, sentence structure, imagery, and context.",
+    "example": "A description of an empty house can feel peaceful or disturbing depending on the language used."
+  },
+  {
+    "id": "51",
+    "title": "Mood",
+    "category": "Style",
+    "definition": "The emotional atmosphere a text creates for the reader.",
+    "explanation": "Mood develops through setting, imagery, pacing, sound, descriptions, and tone. Unlike tone, which reflects an attitude, mood refers primarily to the feeling experienced by the reader.",
+    "example": "Heavy rain, empty streets, and distant footsteps may create an uneasy mood."
+  },
+  {
+    "id": "52",
+    "title": "Diction",
+    "category": "Style",
+    "definition": "An author’s or character’s choice of words.",
+    "explanation": "Diction can be formal, conversational, poetic, technical, regional, simple, or highly elaborate. Word choice strongly influences voice, tone, and characterization.",
+    "example": "A scientist may describe rain as “precipitation,” while a poet describes it as “silver threads.”"
+  },
+  {
+    "id": "53",
+    "title": "Syntax",
+    "category": "Style",
+    "definition": "The arrangement and structure of words within sentences.",
+    "explanation": "Writers use syntax to control rhythm, emphasis, clarity, tension, and pace. Short sentences can create urgency, while long complex sentences can slow the reader down.",
+    "example": "“Run. Now.” creates a different effect from a long sentence explaining why escape is necessary."
+  },
+  {
+    "id": "54",
+    "title": "Imagery",
+    "category": "Literary Device",
+    "definition": "Language that creates vivid sensory impressions.",
+    "explanation": "Imagery appeals to sight, sound, touch, smell, taste, or physical sensation, helping readers experience a scene more directly.",
+    "example": "“The sharp smell of pine mixed with cold smoke from the dying fire.”"
+  },
+  {
+    "id": "55",
+    "title": "Metaphor",
+    "category": "Figurative Language",
+    "definition": "A comparison that describes one thing as another.",
+    "explanation": "Metaphor connects two different ideas without using “like” or “as,” allowing one concept to illuminate another.",
+    "example": "“Her memory was a locked room.”"
+  },
+  {
+    "id": "56",
+    "title": "Simile",
+    "category": "Figurative Language",
+    "definition": "A comparison using words such as “like” or “as.”",
+    "explanation": "Similes make descriptions clearer or more vivid by directly comparing one thing with another recognizable image or quality.",
+    "example": "“The lake was smooth like polished glass.”"
+  },
+  {
+    "id": "57",
+    "title": "Personification",
+    "category": "Figurative Language",
+    "definition": "Giving human characteristics to nonhuman things.",
+    "explanation": "Personification allows objects, animals, weather, or abstract ideas to behave as if they possess human emotions or intentions.",
+    "example": "“The old house watched them from the hill.”"
+  },
+  {
+    "id": "58",
+    "title": "Hyperbole",
+    "category": "Figurative Language",
+    "definition": "Deliberate exaggeration used for emphasis or effect.",
+    "explanation": "Hyperbole is not intended to be interpreted literally. It can intensify emotion, create humor, or emphasize a character’s perspective.",
+    "example": "“I waited a thousand years for the bus.”"
+  },
+  {
+    "id": "59",
+    "title": "Understatement",
+    "category": "Figurative Language",
+    "definition": "Deliberately describing something as less important or intense than it really is.",
+    "explanation": "Understatement can produce humor, irony, emotional restraint, or contrast by minimizing an obviously significant event.",
+    "example": "After surviving a dangerous storm, a character says, “That was slightly unpleasant.”"
+  },
+  {
+    "id": "60",
+    "title": "Oxymoron",
+    "category": "Figurative Language",
+    "definition": "A phrase that combines apparently contradictory words.",
+    "explanation": "Oxymorons bring opposing ideas together to express a complex feeling or unusual concept.",
+    "example": "“Deafening silence.”"
+  },
+  {
+    "id": "61",
+    "title": "Paradox",
+    "category": "Literary Device",
+    "definition": "A statement that seems contradictory but may contain a deeper truth.",
+    "explanation": "Paradoxes challenge straightforward logic and encourage readers to reconsider assumptions.",
+    "example": "“The more he learned, the less certain he became.”"
+  },
+  {
+    "id": "62",
+    "title": "Allusion",
+    "category": "Literary Device",
+    "definition": "An indirect reference to another work, person, myth, event, or cultural idea.",
+    "explanation": "Allusions rely on the reader recognizing the reference and connecting its associations to the current text.",
+    "example": "Calling a difficult journey “an odyssey” alludes to Homer’s Odyssey."
+  },
+  {
+    "id": "63",
+    "title": "Intertextuality",
+    "category": "Literary Theory",
+    "definition": "The way one text connects with, responds to, or transforms other texts.",
+    "explanation": "Intertextuality includes references, adaptations, quotations, structural parallels, retellings, and deliberate conversations between different works.",
+    "example": "A modern novel retells an ancient myth from the perspective of a previously minor character."
+  },
+  {
+    "id": "64",
+    "title": "Satire",
+    "category": "Genre & Technique",
+    "definition": "The use of humor or exaggeration to criticize people, institutions, or society.",
+    "explanation": "Satire exposes flaws by making them appear absurd, contradictory, or ridiculous. It may be playful or sharply political.",
+    "example": "A fictional bureaucracy requires citizens to complete twenty forms just to request permission to fill out another form."
+  },
+  {
+    "id": "65",
+    "title": "Parody",
+    "category": "Genre & Technique",
+    "definition": "An imitation that exaggerates recognizable features for comic or critical effect.",
+    "explanation": "Parody depends on readers recognizing the style, genre, or work being imitated. It often exaggerates familiar conventions.",
+    "example": "A story imitates detective fiction but gives the investigator increasingly ridiculous clues."
+  },
+  {
+    "id": "66",
+    "title": "Pastiche",
+    "category": "Style",
+    "definition": "A work that intentionally imitates or combines the styles of other works.",
+    "explanation": "Unlike parody, pastiche is often affectionate rather than mocking. It may celebrate a literary style, genre, or period.",
+    "example": "A modern mystery is written in the style of nineteenth-century detective fiction."
+  },
+  {
+    "id": "67",
+    "title": "Genre Convention",
+    "category": "Genre",
+    "definition": "A familiar feature commonly associated with a particular genre.",
+    "explanation": "Genre conventions help readers understand what kind of story they are entering. Writers may follow these expectations or deliberately break them.",
+    "example": "A locked-room mystery typically includes a seemingly impossible crime and a limited group of suspects."
+  },
+  {
+    "id": "68",
+    "title": "Trope",
+    "category": "Storytelling",
+    "definition": "A recognizable storytelling pattern, idea, or recurring convention.",
+    "explanation": "Tropes are not automatically clichés. They are familiar building blocks that can be used traditionally, combined creatively, or subverted.",
+    "example": "“Enemies to lovers” is a common relationship trope."
+  },
+  {
+    "id": "69",
+    "title": "Cliché",
+    "category": "Style",
+    "definition": "An expression or idea that has become overly familiar through repeated use.",
+    "explanation": "Clichés can feel predictable because readers have encountered them many times. Writers sometimes avoid them or deliberately use them for humor or characterization.",
+    "example": "“It was a dark and stormy night.”"
+  },
+  {
+    "id": "70",
+    "title": "Genre Subversion",
+    "category": "Genre",
+    "definition": "Deliberately challenging or reversing familiar genre expectations.",
+    "explanation": "Genre subversion begins with conventions readers recognize and then changes them in an unexpected way.",
+    "example": "A fantasy story introduces a chosen hero who immediately refuses the quest and never becomes the central savior."
+  },
+  {
+    "id": "71",
+    "title": "Worldbuilding",
+    "category": "Setting",
+    "definition": "The creation of the social, physical, cultural, and historical details of a fictional world.",
+    "explanation": "Worldbuilding can include geography, politics, technology, religion, economics, language, customs, and everyday life. Strong worldbuilding helps fictional settings feel internally consistent.",
+    "example": "A science-fiction novel establishes how people travel, communicate, work, and govern colonies across several planets."
+  },
+  {
+    "id": "72",
+    "title": "Setting",
+    "category": "Story Element",
+    "definition": "The time, place, and environment in which a story occurs.",
+    "explanation": "Setting can influence character behavior, atmosphere, conflict, and theme. It includes both physical location and broader historical or social context.",
+    "example": "A mystery set in an isolated hotel during a snowstorm creates different possibilities from one set in a crowded city."
+  },
+  {
+    "id": "73",
+    "title": "Atmosphere",
+    "category": "Style & Setting",
+    "definition": "The overall feeling created by a story’s environment and presentation.",
+    "explanation": "Atmosphere combines setting, description, tone, sensory details, and pacing to create a distinctive emotional experience.",
+    "example": "Flickering lights, empty corridors, and distant sounds create a tense atmosphere."
+  },
+  {
+    "id": "74",
+    "title": "Theme",
+    "category": "Meaning",
+    "definition": "A central idea or question explored throughout a work.",
+    "explanation": "Themes are broader than plot. They may concern identity, power, memory, grief, freedom, family, morality, or other recurring human experiences.",
+    "example": "A novel about several generations may explore how memory shapes family identity."
+  },
+  {
+    "id": "75",
+    "title": "Central Conflict",
+    "category": "Plot",
+    "definition": "The main struggle that drives the story forward.",
+    "explanation": "Conflict can occur between characters, within a character, against society, nature, technology, fate, or another force.",
+    "example": "A protagonist must decide whether loyalty to their family is more important than revealing a dangerous truth."
+  },
+  {
+    "id": "76",
+    "title": "Internal Conflict",
+    "category": "Character",
+    "definition": "A struggle happening within a character’s thoughts or emotions.",
+    "explanation": "Internal conflict often involves competing desires, beliefs, fears, responsibilities, or values.",
+    "example": "A character wants to leave their hometown but feels responsible for caring for a parent."
+  },
+  {
+    "id": "77",
+    "title": "External Conflict",
+    "category": "Plot",
+    "definition": "A struggle between a character and an outside force.",
+    "explanation": "External conflict may involve another person, society, nature, institutions, technology, or physical circumstances.",
+    "example": "A group of climbers must survive a sudden storm while trying to descend a mountain."
+  },
+  {
+    "id": "78",
+    "title": "Characterization",
+    "category": "Character",
+    "definition": "The methods used to reveal a character’s personality and qualities.",
+    "explanation": "Characterization may be direct, through explicit description, or indirect, through actions, dialogue, habits, thoughts, and reactions.",
+    "example": "A character repeatedly giving away their own food reveals generosity without the narrator directly describing them as generous."
+  },
+  {
+    "id": "79",
+    "title": "Indirect Characterization",
+    "category": "Character",
+    "definition": "Revealing a character through behavior rather than direct description.",
+    "explanation": "Readers infer personality from what a character says, does, thinks, wears, notices, or how others respond to them.",
+    "example": "A character quietly repairs a stranger’s bicycle without mentioning it afterward, suggesting kindness through action."
+  },
+  {
+    "id": "80",
+    "title": "Direct Characterization",
+    "category": "Character",
+    "definition": "Explicitly telling the reader what a character is like.",
+    "explanation": "Direct characterization states a character’s personality, appearance, background, or qualities clearly instead of requiring the reader to infer them.",
+    "example": "“Elena was impatient, ambitious, and deeply afraid of failure.”"
+  },
+  {
+    "id": "81",
+    "title": "Flat Character",
+    "category": "Character",
+    "definition": "A character built around a small number of recognizable traits.",
+    "explanation": "Flat characters usually do not develop significantly during the story. They often support the plot or highlight qualities in more complex characters.",
+    "example": "A consistently cheerful neighbor appears several times but never changes or reveals deeper motivations."
+  },
+  {
+    "id": "82",
+    "title": "Round Character",
+    "category": "Character",
+    "definition": "A complex character with multiple traits, motives, and contradictions.",
+    "explanation": "Round characters feel psychologically developed because they possess strengths, weaknesses, changing emotions, and conflicting desires.",
+    "example": "A generous leader may also be deeply controlling and afraid of losing authority."
+  },
+  {
+    "id": "83",
+    "title": "Dynamic Character",
+    "category": "Character",
+    "definition": "A character who changes significantly during the story.",
+    "explanation": "The change may involve beliefs, behavior, priorities, relationships, or self-understanding.",
+    "example": "A cynical character gradually learns to trust other people after being forced to depend on them."
+  },
+  {
+    "id": "84",
+    "title": "Static Character",
+    "category": "Character",
+    "definition": "A character who remains fundamentally unchanged.",
+    "explanation": "Static characters may experience major events without altering their central beliefs or personality.",
+    "example": "A stubborn ruler remains convinced of their own judgment despite repeated failures."
+  },
+  {
+    "id": "85",
+    "title": "Protagonist",
+    "category": "Character",
+    "definition": "The central character whose goals drive the main story.",
+    "explanation": "The protagonist is not necessarily heroic or morally good. They are simply the character around whom the primary conflict is organized.",
+    "example": "A morally questionable detective can still be the protagonist if the story follows their investigation."
+  },
+  {
+    "id": "86",
+    "title": "Antagonist",
+    "category": "Character",
+    "definition": "A character or force that opposes the protagonist.",
+    "explanation": "An antagonist may be a villain, rival, institution, social system, natural force, or even the protagonist’s own fear.",
+    "example": "A corrupt company prevents the protagonist from exposing dangerous information."
+  },
+  {
+    "id": "87",
+    "title": "Deuteragonist",
+    "category": "Character",
+    "definition": "The second most important character in a narrative.",
+    "explanation": "The deuteragonist often supports, contrasts with, or complicates the protagonist’s journey.",
+    "example": "A protagonist’s closest friend may have an important parallel storyline and influence major decisions."
+  },
+  {
+    "id": "88",
+    "title": "Confidant",
+    "category": "Character",
+    "definition": "A character trusted with another character’s private thoughts.",
+    "explanation": "Confidants allow protagonists to express feelings, fears, and plans that might otherwise remain internal.",
+    "example": "A princess shares her doubts with a childhood friend she trusts completely."
+  },
+  {
+    "id": "89",
+    "title": "Mentor",
+    "category": "Character Archetype",
+    "definition": "A figure who guides or teaches another character.",
+    "explanation": "Mentors may provide knowledge, skills, emotional support, warnings, or tools needed for a difficult journey.",
+    "example": "An experienced musician helps a younger performer understand both technique and confidence."
+  },
+  {
+    "id": "90",
+    "title": "Tragic Hero",
+    "category": "Character Archetype",
+    "definition": "A central character whose downfall is connected to a serious flaw or error.",
+    "explanation": "Tragic heroes often possess admirable qualities but make choices that contribute to their own destruction.",
+    "example": "A respected leader’s pride prevents them from admitting a mistake until the consequences become irreversible."
+  },
+  {
+    "id": "91",
+    "title": "Fatal Flaw",
+    "category": "Character",
+    "definition": "A weakness that contributes to a character’s downfall.",
+    "explanation": "The flaw may be pride, jealousy, ambition, fear, indecision, or another trait that becomes destructive under pressure.",
+    "example": "A commander’s inability to trust others causes them to reject advice that could save their army."
+  },
+  {
+    "id": "92",
+    "title": "Hubris",
+    "category": "Character & Theme",
+    "definition": "Excessive pride or confidence that leads to serious consequences.",
+    "explanation": "Hubris often causes characters to underestimate danger, ignore warnings, or believe they are beyond ordinary limits.",
+    "example": "A scientist assumes every risk can be controlled and refuses to stop a dangerous experiment."
+  },
+  {
+    "id": "93",
+    "title": "Catharsis",
+    "category": "Literary Theory",
+    "definition": "An emotional release experienced through a powerful story.",
+    "explanation": "Catharsis is especially associated with tragedy, where intense fear, sorrow, or tension is resolved through the narrative experience.",
+    "example": "A devastating ending may leave the reader emotionally exhausted but also relieved."
+  },
+  {
+    "id": "94",
+    "title": "Pathos",
+    "category": "Rhetorical Device",
+    "definition": "An appeal designed to evoke strong emotion.",
+    "explanation": "Pathos may create sympathy, sadness, fear, hope, anger, or compassion through situations, imagery, and character experiences.",
+    "example": "A child waiting every evening for a parent who will never return creates strong emotional appeal."
+  },
+  {
+    "id": "95",
+    "title": "Ethos",
+    "category": "Rhetorical Device",
+    "definition": "An appeal based on credibility or authority.",
+    "explanation": "Ethos persuades the audience by presenting the speaker as trustworthy, knowledgeable, experienced, or morally credible.",
+    "example": "A doctor discussing public health may establish credibility through professional experience."
+  },
+  {
+    "id": "96",
+    "title": "Logos",
+    "category": "Rhetorical Device",
+    "definition": "An appeal based on logic and evidence.",
+    "explanation": "Logos relies on reasoning, facts, examples, statistics, or cause-and-effect relationships to support an argument.",
+    "example": "An essay compares data from several studies before reaching a conclusion."
+  },
+  {
+    "id": "97",
+    "title": "Rhetorical Question",
+    "category": "Rhetorical Device",
+    "definition": "A question asked for effect rather than to receive an answer.",
+    "explanation": "Rhetorical questions can emphasize an argument, provoke reflection, or create emotional impact.",
+    "example": "“How much longer can we ignore the problem?”"
+  },
+  {
+    "id": "98",
+    "title": "Repetition",
+    "category": "Literary Device",
+    "definition": "Deliberate reuse of words, phrases, sounds, or ideas.",
+    "explanation": "Repetition can create rhythm, reinforce a theme, emphasize emotion, or make an idea memorable.",
+    "example": "A poem repeatedly begins lines with “I remember” to emphasize memory."
+  },
+  {
+    "id": "99",
+    "title": "Anaphora",
+    "category": "Rhetorical Device",
+    "definition": "Repetition of a word or phrase at the beginning of successive clauses.",
+    "explanation": "Anaphora creates rhythm and emphasis by repeatedly returning to the same opening language.",
+    "example": "“We waited in silence. We waited in fear. We waited for morning.”"
+  },
+  {
+    "id": "100",
+    "title": "Epiphora",
+    "category": "Rhetorical Device",
+    "definition": "Repetition at the end of successive phrases or sentences.",
+    "explanation": "Epiphora reinforces an idea through repeated endings and can create a strong rhythmic effect.",
+    "example": "“They wanted justice, demanded justice, and would not leave without justice.”"
+  },
+  {
+    "id": "101",
+    "title": "Juxtaposition",
+    "category": "Literary Device",
+    "definition": "Placing contrasting elements close together.",
+    "explanation": "Juxtaposition highlights differences or unexpected similarities between characters, settings, images, or ideas.",
+    "example": "A lavish celebration is described immediately beside scenes of poverty outside the palace."
+  },
+  {
+    "id": "102",
+    "title": "Contrast",
+    "category": "Literary Device",
+    "definition": "Emphasizing differences between two elements.",
+    "explanation": "Contrast can reveal character traits, strengthen themes, or create visual and emotional tension.",
+    "example": "One sibling values tradition while the other constantly seeks change."
+  },
+  {
+    "id": "103",
+    "title": "Antithesis",
+    "category": "Rhetorical Device",
+    "definition": "Contrasting ideas expressed in a balanced structure.",
+    "explanation": "Antithesis places opposing concepts side by side to sharpen the difference between them.",
+    "example": "“She wanted freedom; he wanted control.”"
+  },
+  {
+    "id": "104",
+    "title": "Pun",
+    "category": "Wordplay",
+    "definition": "A joke based on multiple meanings or similar-sounding words.",
+    "explanation": "Puns create humor or clever ambiguity by exploiting the flexibility of language.",
+    "example": "A baker says business is “on the rise.”"
+  },
+  {
+    "id": "105",
+    "title": "Double Entendre",
+    "category": "Wordplay",
+    "definition": "A phrase that can be understood in two different ways.",
+    "explanation": "One meaning is usually obvious while another may be humorous, ironic, or suggestive.",
+    "example": "A character says, “That was quite a performance,” referring both to a speech and someone’s dramatic behavior."
+  },
+  {
+    "id": "106",
+    "title": "Ambiguity",
+    "category": "Style",
+    "definition": "Language or events that allow more than one interpretation.",
+    "explanation": "Writers may use ambiguity deliberately to create uncertainty, complexity, or multiple layers of meaning.",
+    "example": "A character’s final smile could indicate forgiveness or hidden revenge."
+  },
+  {
+    "id": "107",
+    "title": "Connotation",
+    "category": "Language",
+    "definition": "The emotional or cultural associations connected to a word.",
+    "explanation": "Connotation goes beyond dictionary meaning and influences how language feels to the reader.",
+    "example": "“Home” may suggest comfort and belonging beyond simply meaning a place of residence."
+  },
+  {
+    "id": "108",
+    "title": "Denotation",
+    "category": "Language",
+    "definition": "The literal dictionary meaning of a word.",
+    "explanation": "Denotation refers to the direct meaning without emotional or symbolic associations.",
+    "example": "The denotation of “snake” is a legless reptile."
+  },
+  {
+    "id": "109",
+    "title": "Euphemism",
+    "category": "Language",
+    "definition": "A softer expression used instead of a harsher one.",
+    "explanation": "Euphemisms can make difficult, uncomfortable, or sensitive subjects sound less direct.",
+    "example": "Saying someone “passed away” instead of “died.”"
+  },
+  {
+    "id": "110",
+    "title": "Dysphemism",
+    "category": "Language",
+    "definition": "A deliberately harsh or negative expression.",
+    "explanation": "Dysphemism makes a subject sound more unpleasant, insulting, or emotionally charged.",
+    "example": "Calling an old building a “wreck” rather than simply “run-down.”"
+  },
+  {
+    "id": "111",
+    "title": "Colloquialism",
+    "category": "Language",
+    "definition": "Informal language associated with everyday conversation.",
+    "explanation": "Colloquialisms can make dialogue sound natural and reveal social, regional, or generational identity.",
+    "example": "A character says “gonna” or “no big deal” in casual speech."
+  },
+  {
+    "id": "112",
+    "title": "Dialect",
+    "category": "Language",
+    "definition": "A form of language associated with a particular region or social group.",
+    "explanation": "Dialect can include distinctive pronunciation, vocabulary, grammar, and expressions.",
+    "example": "Characters from different regions may use different words for the same everyday object."
+  },
+  {
+    "id": "113",
+    "title": "Idiolect",
+    "category": "Language",
+    "definition": "The unique way an individual person uses language.",
+    "explanation": "An idiolect includes characteristic vocabulary, rhythm, grammar, repeated phrases, and speaking habits.",
+    "example": "One character constantly uses precise technical vocabulary even in casual conversation."
+  },
+  {
+    "id": "114",
+    "title": "Register",
+    "category": "Language",
+    "definition": "The level of formality used in a particular situation.",
+    "explanation": "Register changes depending on audience, context, profession, and social relationship.",
+    "example": "A character speaks formally during a job interview but casually with close friends."
+  },
+  {
+    "id": "115",
+    "title": "Alliteration",
+    "category": "Sound Device",
+    "definition": "Repetition of initial consonant sounds in nearby words.",
+    "explanation": "Alliteration adds rhythm, emphasis, or musicality to prose and poetry.",
+    "example": "“Silver streets shimmered silently.”"
+  },
+  {
+    "id": "116",
+    "title": "Assonance",
+    "category": "Sound Device",
+    "definition": "Repetition of similar vowel sounds in nearby words.",
+    "explanation": "Assonance creates subtle musical patterns and can connect words through sound.",
+    "example": "“The low road rolled home.”"
+  },
+  {
+    "id": "117",
+    "title": "Consonance",
+    "category": "Sound Device",
+    "definition": "Repetition of consonant sounds within or at the ends of words.",
+    "explanation": "Consonance creates rhythm and sonic texture without requiring full rhyme.",
+    "example": "“Blank and think” repeat the “nk” sound."
+  },
+  {
+    "id": "118",
+    "title": "Onomatopoeia",
+    "category": "Sound Device",
+    "definition": "A word that imitates the sound it describes.",
+    "explanation": "Onomatopoeia makes writing more sensory by connecting language directly with sound.",
+    "example": "“Buzz,” “crash,” “whisper,” and “clang.”"
+  },
+  {
+    "id": "119",
+    "title": "Rhythm",
+    "category": "Style",
+    "definition": "The pattern and flow created by sounds, stresses, and sentence structure.",
+    "explanation": "Rhythm influences the speed and emotional effect of prose or poetry. Writers can create smooth, abrupt, repetitive, or highly musical movement through sentence length and sound.",
+    "example": "Short repeated sentences can create urgency during an action scene."
+  }
+]

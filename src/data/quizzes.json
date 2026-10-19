@@ -1,0 +1,629 @@
+[
+  {
+    "title": "Narrative Reliability",
+    "statements": [
+      "The narrator gives accurate facts but misunderstands the emotional meaning of events.",
+      "The narrator intentionally hides information to manipulate the reader.",
+      "The narrator knows the thoughts and actions of several characters.",
+      "The narration closely follows one character while remaining in third person."
+    ],
+    "options": [
+      "Third-Person Limited",
+      "Deliberately Unreliable Narrator",
+      "Third-Person Omniscient",
+      "Naive Narrator",
+      "Second-Person Narration"
+    ],
+    "answers": [
+      "Naive Narrator",
+      "Deliberately Unreliable Narrator",
+      "Third-Person Omniscient",
+      "Third-Person Limited"
+    ]
+  },
+  {
+    "title": "Literary Techniques in Context",
+    "statements": [
+      "A broken watch appears several times before becoming crucial evidence in the final chapter.",
+      "Readers know that the friendly visitor is the murderer, but the protagonist does not.",
+      "A detective spends half the novel investigating a suspicious neighbor who has nothing to do with the crime.",
+      "The first chapter shows the protagonist escaping a burning building before explaining how the fire began."
+    ],
+    "options": [
+      "Dramatic Irony",
+      "In Medias Res",
+      "Red Herring",
+      "Chekhov’s Gun",
+      "Deus Ex Machina"
+    ],
+    "answers": [
+      "Chekhov’s Gun",
+      "Dramatic Irony",
+      "Red Herring",
+      "In Medias Res"
+    ]
+  },
+  {
+    "title": "Story Structure",
+    "statements": [
+      "A journalist receives an anonymous file that begins the central investigation.",
+      "Every new clue puts the journalist in greater danger and reveals a larger conspiracy.",
+      "The journalist finally confronts the person responsible and must decide whether to publish the evidence.",
+      "The final chapter shows how the investigation changed the journalist’s career and relationships."
+    ],
+    "options": [
+      "Climax",
+      "Exposition",
+      "Resolution",
+      "Rising Action",
+      "Inciting Incident"
+    ],
+    "answers": ["Inciting Incident", "Rising Action", "Climax", "Resolution"]
+  },
+  {
+    "title": "Character Roles",
+    "statements": [
+      "A respected commander is destroyed because pride prevents him from accepting advice.",
+      "A quiet friend exists mainly so the protagonist can reveal private fears and plans.",
+      "A cynical protagonist lies, steals, and behaves selfishly but remains the central figure of the story.",
+      "An experienced scientist trains the young protagonist before the main expedition."
+    ],
+    "options": ["Mentor", "Confidant", "Antihero", "Tragic Hero", "Foil"],
+    "answers": ["Tragic Hero", "Confidant", "Antihero", "Mentor"]
+  },
+  {
+    "title": "Figurative Language",
+    "statements": [
+      "“The city swallowed everyone who arrived with dreams.”",
+      "“The waiting room was as silent as an abandoned church.”",
+      "“I have explained this a million times.”",
+      "“The old staircase complained under every step.”"
+    ],
+    "options": [
+      "Hyperbole",
+      "Personification",
+      "Metaphor",
+      "Simile",
+      "Oxymoron"
+    ],
+    "answers": ["Metaphor", "Simile", "Hyperbole", "Personification"]
+  },
+  {
+    "title": "Types of Irony",
+    "statements": [
+      "A fire station burns down because its alarm system fails.",
+      "A character says “What wonderful timing” after missing the final train.",
+      "Readers know there is someone hiding behind the door while the character enters the room calmly.",
+      "A novel repeatedly describes an obviously corrupt politician as “our flawless public servant.”"
+    ],
+    "options": [
+      "Verbal Irony",
+      "Situational Irony",
+      "Dramatic Irony",
+      "Sustained Irony",
+      "Foreshadowing"
+    ],
+    "answers": [
+      "Situational Irony",
+      "Verbal Irony",
+      "Dramatic Irony",
+      "Sustained Irony"
+    ]
+  },
+  {
+    "title": "Narrative Structure",
+    "statements": [
+      "Events from 1995 and 2025 alternate until their connection becomes clear.",
+      "The final scene returns to the exact railway platform where the novel began.",
+      "A traveler tells a story about another traveler, whose own story becomes the main narrative.",
+      "The novel begins after the central conflict has already started and explains earlier events later."
+    ],
+    "options": [
+      "Circular Narrative",
+      "Frame Narrative",
+      "Linear Narrative",
+      "Nonlinear Narrative",
+      "In Medias Res"
+    ],
+    "answers": [
+      "Nonlinear Narrative",
+      "Circular Narrative",
+      "Frame Narrative",
+      "In Medias Res"
+    ]
+  },
+  {
+    "title": "Literary Forms & Genres",
+    "statements": [
+      "A novel is told entirely through emails, diary entries, and police reports.",
+      "A realistic family story contains ghosts and impossible events that everyone accepts as normal.",
+      "A novel follows a teenager’s intellectual and emotional development into adulthood.",
+      "A fictional society of animals is used to explore political power and social inequality."
+    ],
+    "options": [
+      "Magical Realism",
+      "Bildungsroman",
+      "Allegory",
+      "Epistolary Novel",
+      "Pastiche"
+    ],
+    "answers": [
+      "Epistolary Novel",
+      "Magical Realism",
+      "Bildungsroman",
+      "Allegory"
+    ]
+  },
+  {
+    "title": "Style & Language",
+    "statements": [
+      "The author consistently uses short, abrupt sentences during dangerous scenes.",
+      "A character uses informal expressions that are typical of everyday conversation.",
+      "A lawyer speaks differently in court than when talking to a close friend.",
+      "One character has a recognizable habit of using scientific vocabulary in every conversation."
+    ],
+    "options": ["Register", "Syntax", "Colloquialism", "Idiolect", "Allegory"],
+    "answers": ["Syntax", "Colloquialism", "Register", "Idiolect"]
+  },
+  {
+    "title": "Meaning Beneath the Surface",
+    "statements": [
+      "A dead garden repeatedly appears whenever a family relationship deteriorates.",
+      "Locked doors appear throughout a novel and reinforce its concern with emotional isolation.",
+      "The novel repeatedly explores whether personal freedom is possible without loneliness.",
+      "A white bird in one particular scene represents the protagonist’s desire to escape."
+    ],
+    "options": ["Theme", "Motif", "Symbolism", "Central Conflict", "Symbol"],
+    "answers": ["Symbolism", "Motif", "Theme", "Symbol"]
+  },
+  {
+    "title": "Ending Types",
+    "statements": [
+      "The final scene allows two equally plausible explanations of what really happened.",
+      "The story ends before revealing whether the protagonist accepts an important offer.",
+      "The final revelation forces the reader to reinterpret many earlier scenes.",
+      "The story returns to its opening location, but the protagonist now views it differently."
+    ],
+    "options": [
+      "Open Ending",
+      "Circular Ending",
+      "Twist Ending",
+      "Ambiguous Ending",
+      "Cliffhanger"
+    ],
+    "answers": [
+      "Ambiguous Ending",
+      "Open Ending",
+      "Twist Ending",
+      "Circular Ending"
+    ]
+  },
+  {
+    "title": "Character Development",
+    "statements": [
+      "A selfish character gradually becomes willing to sacrifice something important for others.",
+      "A strict teacher behaves almost exactly the same at the beginning and end of the novel.",
+      "A complex protagonist is compassionate in some situations but deeply manipulative in others.",
+      "A minor shopkeeper is defined almost entirely by constant pessimism."
+    ],
+    "options": [
+      "Flat Character",
+      "Dynamic Character",
+      "Round Character",
+      "Static Character",
+      "Deuteragonist"
+    ],
+    "answers": [
+      "Dynamic Character",
+      "Static Character",
+      "Round Character",
+      "Flat Character"
+    ]
+  },
+  {
+    "title": "Rhetorical Devices",
+    "statements": [
+      "“We waited for answers. We waited for justice. We waited for change.”",
+      "“They demanded freedom, fought for freedom, and finally won freedom.”",
+      "“She wanted peace; he wanted victory.”",
+      "“Who could look at these results and claim nothing needs to change?”"
+    ],
+    "options": [
+      "Antithesis",
+      "Anaphora",
+      "Rhetorical Question",
+      "Epiphora",
+      "Euphemism"
+    ],
+    "answers": ["Anaphora", "Epiphora", "Antithesis", "Rhetorical Question"]
+  },
+  {
+    "title": "Suspense & Plot Devices",
+    "statements": [
+      "A chapter ends just as the detective opens the hidden safe.",
+      "A mysterious necklace motivates several characters, although its actual value is irrelevant.",
+      "A previously unknown billionaire appears in the final chapter and solves every financial problem.",
+      "Early references to unstable ice become important when a character later tries to cross the lake."
+    ],
+    "options": [
+      "Cliffhanger",
+      "Foreshadowing",
+      "MacGuffin",
+      "Deus Ex Machina",
+      "Subplot"
+    ],
+    "answers": ["Cliffhanger", "MacGuffin", "Deus Ex Machina", "Foreshadowing"]
+  },
+  {
+    "title": "Identify the Narrative Technique",
+    "statements": [
+      "The narration suddenly adopts the protagonist’s irritated vocabulary without saying “she thought.”",
+      "The text follows a character’s thoughts as they jump between a smell, a childhood memory, tomorrow’s meeting, and a song.",
+      "The narrator pauses to complain that the author has written the scene incorrectly.",
+      "The protagonist silently considers every possible consequence of confessing the truth."
+    ],
+    "options": [
+      "Metafiction",
+      "Interior Monologue",
+      "Stream of Consciousness",
+      "Free Indirect Discourse",
+      "Flashback"
+    ],
+    "answers": [
+      "Free Indirect Discourse",
+      "Stream of Consciousness",
+      "Metafiction",
+      "Interior Monologue"
+    ]
+  },
+  {
+    "title": "Sound & Language Devices",
+    "statements": [
+      "“Silver streets shimmered silently beneath the storm.”",
+      "“The low road rolled slowly home.”",
+      "“The clock went tick-tock in the empty room.”",
+      "“The black rock cracked beneath his boot.”"
+    ],
+    "options": [
+      "Assonance",
+      "Alliteration",
+      "Onomatopoeia",
+      "Consonance",
+      "Hyperbole"
+    ],
+    "answers": ["Alliteration", "Assonance", "Onomatopoeia", "Consonance"]
+  },
+  {
+    "title": "Conflict Types",
+    "statements": [
+      "A climber struggles to survive a blizzard after becoming separated from the group.",
+      "A journalist must decide whether revealing the truth is worth betraying a close friend.",
+      "A teenager challenges a law that prevents certain citizens from attending university.",
+      "Two business partners compete for control of the same company."
+    ],
+    "options": [
+      "Character vs. Character",
+      "Character vs. Nature",
+      "Character vs. Society",
+      "Internal Conflict",
+      "Character vs. Technology"
+    ],
+    "answers": [
+      "Character vs. Nature",
+      "Internal Conflict",
+      "Character vs. Society",
+      "Character vs. Character"
+    ]
+  },
+  {
+    "title": "Point of View",
+    "statements": [
+      "“I knew the letter was a mistake, but I opened it anyway.”",
+      "“You step into the corridor and immediately notice the silence.”",
+      "“Maya watched the train leave. She wondered whether she had made the right decision.”",
+      "“Maya regretted leaving, while across town Daniel was already celebrating her departure.”"
+    ],
+    "options": [
+      "First Person",
+      "Second Person",
+      "Third-Person Limited",
+      "Third-Person Omniscient",
+      "Objective Narration"
+    ],
+    "answers": [
+      "First Person",
+      "Second Person",
+      "Third-Person Limited",
+      "Third-Person Omniscient"
+    ]
+  },
+  {
+    "title": "Literary Meaning",
+    "statements": [
+      "The repeated image of empty chairs reinforces a novel’s exploration of absence.",
+      "A storm in one scene represents the collapse of a character’s emotional control.",
+      "The novel repeatedly asks whether ambition can coexist with loyalty.",
+      "A fictional kingdom represents a real political system throughout the entire story."
+    ],
+    "options": ["Allegory", "Theme", "Symbol", "Motif", "Foil"],
+    "answers": ["Motif", "Symbol", "Theme", "Allegory"]
+  },
+  {
+    "title": "Forms of Characterization",
+    "statements": [
+      "“Marcus was impatient and rarely trusted anyone.”",
+      "Marcus checks the lock three times before leaving every room.",
+      "A confident character is paired with an anxious partner to highlight their differences.",
+      "A minor character is defined almost entirely by greed."
+    ],
+    "options": [
+      "Direct Characterization",
+      "Indirect Characterization",
+      "Foil Character",
+      "Flat Character",
+      "Round Character"
+    ],
+    "answers": [
+      "Direct Characterization",
+      "Indirect Characterization",
+      "Foil Character",
+      "Flat Character"
+    ]
+  },
+  {
+    "title": "Genre Recognition",
+    "statements": [
+      "A detective investigates a murder inside a mansion that nobody could have entered or left.",
+      "A young woman grows from an insecure student into an independent adult over several years.",
+      "A realistic village treats conversations with ghosts as perfectly ordinary.",
+      "A politician’s absurd rise to power is used to criticize bureaucracy and corruption."
+    ],
+    "options": [
+      "Satire",
+      "Bildungsroman",
+      "Locked-Room Mystery",
+      "Magical Realism",
+      "Epic Fantasy"
+    ],
+    "answers": [
+      "Locked-Room Mystery",
+      "Bildungsroman",
+      "Magical Realism",
+      "Satire"
+    ]
+  },
+  {
+    "title": "Narrative Time",
+    "statements": [
+      "The story pauses in 2030 to show an important scene from 2002.",
+      "A chapter briefly shows the protagonist twenty years in the future.",
+      "Events are presented in the exact order in which they occur.",
+      "The novel alternates repeatedly between childhood, adulthood, and the present investigation."
+    ],
+    "options": [
+      "Flashback",
+      "Flashforward",
+      "Linear Narrative",
+      "Nonlinear Narrative",
+      "Frame Narrative"
+    ],
+    "answers": [
+      "Flashback",
+      "Flashforward",
+      "Linear Narrative",
+      "Nonlinear Narrative"
+    ]
+  },
+  {
+    "title": "Tone Identification",
+    "statements": [
+      "The narrator describes a disaster using dry jokes and exaggerated politeness.",
+      "A childhood home is described with warmth and gentle longing.",
+      "A ruined city is presented through bleak images and hopeless observations.",
+      "A narrator mocks every decision made by a self-important politician."
+    ],
+    "options": [
+      "Nostalgic",
+      "Sarcastic",
+      "Melancholic",
+      "Deadpan",
+      "Celebratory"
+    ],
+    "answers": ["Deadpan", "Nostalgic", "Melancholic", "Sarcastic"]
+  },
+  {
+    "title": "Plot Function",
+    "statements": [
+      "The protagonist learns that their employer has been secretly falsifying records.",
+      "Attempts to investigate lead to threats, lost evidence, and betrayal.",
+      "The protagonist publicly releases the evidence despite knowing the consequences.",
+      "Several months later, the company has collapsed and the protagonist begins a new career."
+    ],
+    "options": [
+      "Rising Action",
+      "Resolution",
+      "Inciting Incident",
+      "Climax",
+      "Exposition"
+    ],
+    "answers": ["Inciting Incident", "Rising Action", "Climax", "Resolution"]
+  },
+  {
+    "title": "Word Meaning",
+    "statements": [
+      "“Home” literally means the place where someone lives.",
+      "“Home” may suggest safety, belonging, or childhood memories.",
+      "“Passed away” is used instead of “died.”",
+      "Calling an old apartment a “dump” makes it sound deliberately unpleasant."
+    ],
+    "options": [
+      "Denotation",
+      "Connotation",
+      "Euphemism",
+      "Dysphemism",
+      "Register"
+    ],
+    "answers": ["Denotation", "Connotation", "Euphemism", "Dysphemism"]
+  },
+  {
+    "title": "Genre Expectations",
+    "statements": [
+      "A romance introduces two rivals who gradually fall in love.",
+      "A fantasy novel presents a chosen hero who immediately refuses to save the kingdom.",
+      "A detective story includes clues, suspects, and a final explanation.",
+      "A phrase such as “cold as ice” feels predictable because it has been used excessively."
+    ],
+    "options": [
+      "Trope",
+      "Genre Subversion",
+      "Genre Convention",
+      "Cliché",
+      "Pastiche"
+    ],
+    "answers": ["Trope", "Genre Subversion", "Genre Convention", "Cliché"]
+  },
+  {
+    "title": "Rhetorical Appeals",
+    "statements": [
+      "“As a surgeon with thirty years of experience, I have seen the consequences firsthand.”",
+      "“The study followed 12,000 participants and found a 34% reduction in risk.”",
+      "“Imagine a child going to bed hungry every night.”",
+      "“How can we claim the system works when half the population cannot access it?”"
+    ],
+    "options": ["Pathos", "Logos", "Ethos", "Rhetorical Question", "Satire"],
+    "answers": ["Ethos", "Logos", "Pathos", "Rhetorical Question"]
+  },
+  {
+    "title": "Storytelling Objects",
+    "statements": [
+      "A mysterious briefcase motivates every faction, although its contents are never revealed.",
+      "A rifle displayed prominently in Chapter 1 is used during the climax.",
+      "A necklace appears repeatedly and represents the protagonist’s connection to their mother.",
+      "A false diary sends the investigator toward the wrong suspect."
+    ],
+    "options": ["MacGuffin", "Chekhov’s Gun", "Symbol", "Red Herring", "Motif"],
+    "answers": ["MacGuffin", "Chekhov’s Gun", "Symbol", "Red Herring"]
+  },
+  {
+    "title": "Intertextual Relationships",
+    "statements": [
+      "A modern novel retells a Greek myth from the villain’s perspective.",
+      "A comedy exaggerates the conventions of detective fiction to make them ridiculous.",
+      "A new mystery lovingly imitates the tone and structure of classic 1930s crime novels.",
+      "A novel repeatedly references characters and scenes from several older literary works."
+    ],
+    "options": [
+      "Intertextuality",
+      "Parody",
+      "Pastiche",
+      "Retelling",
+      "Allegory"
+    ],
+    "answers": ["Retelling", "Parody", "Pastiche", "Intertextuality"]
+  },
+  {
+    "title": "Character Development Analysis",
+    "statements": [
+      "A cowardly soldier gradually becomes willing to risk their life for others.",
+      "A rigid judge experiences multiple crises but ends the story with exactly the same worldview.",
+      "A protagonist is compassionate, jealous, ambitious, insecure, and capable of contradictory choices.",
+      "A side character exists primarily to provide comic complaints and never develops beyond that role."
+    ],
+    "options": [
+      "Static Character",
+      "Dynamic Character",
+      "Round Character",
+      "Flat Character",
+      "Antihero"
+    ],
+    "answers": [
+      "Dynamic Character",
+      "Static Character",
+      "Round Character",
+      "Flat Character"
+    ]
+  },
+  {
+    "title": "Difficult Narrative Interpretation",
+    "statements": [
+      "A narrator insists their marriage is perfect while repeatedly describing evidence of serious conflict.",
+      "The narrator is a child who reports events accurately but cannot understand their adult significance.",
+      "Different narrators describe the same accident in contradictory ways.",
+      "The story refuses to enter anyone’s thoughts and reports only visible actions and dialogue."
+    ],
+    "options": [
+      "Naive Narrator",
+      "Objective Narration",
+      "Multiple Perspectives",
+      "Unreliable Narrator",
+      "Omniscient Narration"
+    ],
+    "answers": [
+      "Unreliable Narrator",
+      "Naive Narrator",
+      "Multiple Perspectives",
+      "Objective Narration"
+    ]
+  },
+  {
+    "title": "Style Through Sentence Design",
+    "statements": [
+      "The author uses fragments such as “Footsteps. Darkness. Silence.” during a chase.",
+      "The narrator consistently chooses technical medical vocabulary.",
+      "Dialogue contains informal expressions associated with one particular region.",
+      "The character speaks formally to a professor but casually to a sibling."
+    ],
+    "options": ["Syntax", "Diction", "Dialect", "Register", "Symbolism"],
+    "answers": ["Syntax", "Diction", "Dialect", "Register"]
+  },
+  {
+    "title": "Figurative Meaning",
+    "statements": [
+      "“Hope was a tiny candle refusing to go out.”",
+      "“His explanation was as clear as fog.”",
+      "“The silence screamed across the room.”",
+      "“She carried enough luggage to move an entire country.”"
+    ],
+    "options": ["Hyperbole", "Metaphor", "Oxymoron", "Simile", "Allusion"],
+    "answers": ["Metaphor", "Simile", "Oxymoron", "Hyperbole"]
+  },
+  {
+    "title": "World & Setting",
+    "statements": [
+      "The story takes place in 1920s Paris during a period of major social change.",
+      "The author establishes laws, currency, religion, geography, and political institutions for a fictional planet.",
+      "Fog, distant bells, and abandoned streets create a threatening emotional environment.",
+      "The repeated contrast between wealthy districts and crowded factories reinforces the story’s concern with inequality."
+    ],
+    "options": [
+      "Setting",
+      "Worldbuilding",
+      "Atmosphere",
+      "Theme",
+      "Exposition"
+    ],
+    "answers": ["Setting", "Worldbuilding", "Atmosphere", "Theme"]
+  },
+  {
+    "title": "Literary Form Recognition",
+    "statements": [
+      "The story consists of letters exchanged between two people over twenty years.",
+      "The narrator repeatedly discusses how difficult it is to write the novel the reader is currently reading.",
+      "Several travelers tell separate stories inside a larger journey narrative.",
+      "A fictional political revolution mirrors the structure of a real historical revolution."
+    ],
+    "options": [
+      "Frame Narrative",
+      "Epistolary Novel",
+      "Metafiction",
+      "Allegory",
+      "Stream of Consciousness"
+    ],
+    "answers": [
+      "Epistolary Novel",
+      "Metafiction",
+      "Frame Narrative",
+      "Allegory"
+    ]
+  }
+]
