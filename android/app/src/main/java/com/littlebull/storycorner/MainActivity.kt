@@ -1,4 +1,4 @@
-package com.littlebullstorycorner
+package com.littlebull.storycorner
 
 import android.os.Bundle
 import com.facebook.react.ReactActivity
