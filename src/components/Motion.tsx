@@ -188,7 +188,7 @@ export function StorySparkles() {
             position: 'absolute',
             left: `${left}%`,
             top: 24 + i * 51,
-            color: i % 2 ? '#91DFFE' : '#F4B5F3',
+            color: i % 2 ? '#A4F5EF' : '#FFE49A',
             fontSize: i % 2 ? 7 : 11,
             opacity: shimmer.interpolate({
               inputRange: [0, 1],

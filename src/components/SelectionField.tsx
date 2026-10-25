@@ -69,7 +69,7 @@ export function SelectionField<T extends string | number>({
                   padding: 13,
                   minHeight: 46,
                   backgroundColor:
-                    option.value === value ? '#532A6A' : 'transparent',
+                    option.value === value ? colors.purple : 'transparent',
                 },
               ]}
             >

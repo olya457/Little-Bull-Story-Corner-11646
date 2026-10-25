@@ -11,9 +11,9 @@ import { GradientSurface as LinearGradient } from '../components/GradientSurface
 import { WebView } from 'react-native-webview';
 import { assets } from '../assets';
 import { Button, Screen } from '../components/UI';
-import { styles as s, colors } from '../theme';
+import { styles as s, colors, backgroundGradient } from '../theme';
 import { useStore } from '../store/AppStore';
-const html = `<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><style>html,body{margin:0;background:transparent;overflow:hidden}.track{margin:8px auto;background:#ffffff22;width:168px;height:5px;border-radius:10px;overflow:hidden}.fill{height:100%;width:0;background:linear-gradient(90deg,#f147d8,#a24dff,#35cbf4);animation:load 4s linear forwards}@keyframes load{to{width:100%}}p{font:12px -apple-system,Arial;color:#81758f;text-align:center;letter-spacing:.7px}</style></head><body><div class="track"><div class="fill"></div></div><p>Opening your library···</p><script>setTimeout(()=>window.ReactNativeWebView.postMessage('done'),4000)</script></body></html>`;
+const html = `<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><style>html,body{margin:0;background:transparent;overflow:hidden}.track{margin:8px auto;background:#ffffff22;width:168px;height:5px;border-radius:10px;overflow:hidden}.fill{height:100%;width:0;background:linear-gradient(90deg,#ffe28a,#ffd166,#ffae57);animation:load 4s linear forwards}@keyframes load{to{width:100%}}p{font:12px -apple-system,Arial;color:#d3e6ff;text-align:center;letter-spacing:.7px}</style></head><body><div class="track"><div class="fill"></div></div><p>Opening your library···</p><script>setTimeout(()=>window.ReactNativeWebView.postMessage('done'),4000)</script></body></html>`;
 export function Loader({ onFinish }: { onFinish: () => void }) {
   const { height, width } = useWindowDimensions();
   const logoSize = Math.min(238, width * 0.6, height * 0.3);
@@ -25,7 +25,7 @@ export function Loader({ onFinish }: { onFinish: () => void }) {
   }, [loaded, onFinish]);
   return (
     <LinearGradient
-      colors={['#100B32', '#1F1243', '#08061B']}
+      colors={backgroundGradient}
       style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
     >
       <StorySparkles />
@@ -42,7 +42,7 @@ export function Loader({ onFinish }: { onFinish: () => void }) {
         </Text>
         <Text
           style={{
-            color: '#FA9BEA',
+            color: '#FFE49A',
             position: 'absolute',
             top: '23%',
             right: '18%',
@@ -58,7 +58,7 @@ export function Loader({ onFinish }: { onFinish: () => void }) {
           height: logoSize,
           borderRadius: logoSize / 2,
           borderWidth: 2,
-          borderColor: '#F68AE2',
+          borderColor: '#FFD166',
         }}
       />
       <Text
@@ -67,11 +67,11 @@ export function Loader({ onFinish }: { onFinish: () => void }) {
           {
             letterSpacing: 5,
             marginTop: height < 700 ? 24 : 40,
-            color: '#F79ADF',
+            color: '#FFE49A',
           },
         ]}
       >
-        Little Bull
+        YOUR NEXT CHAPTER
       </Text>
       <Text
         style={{
@@ -82,7 +82,7 @@ export function Loader({ onFinish }: { onFinish: () => void }) {
           marginTop: 10,
         }}
       >
-        Story Corner
+        Bully Tales
       </Text>
       <Text style={[s.body, { marginTop: 8 }]}>Read more. Wonder more.</Text>
       <View
@@ -131,6 +131,7 @@ export function Onboarding() {
   const finish = () => update(x => ({ ...x, onboarded: true }));
   return (
     <Screen animationKey={step}>
+      <Text style={s.label}>Bully Tales</Text>
       <Pressable
         onPress={finish}
         accessibilityRole="button"
@@ -156,12 +157,12 @@ export function Onboarding() {
                 height: 8,
                 width: step === i ? 28 : 8,
                 borderRadius: 6,
-                backgroundColor: step === i ? colors.pink : '#4A425F',
+                backgroundColor: step === i ? colors.pink : colors.border,
               }}
             />
           ))}
         </View>
-        <Text style={[s.label, { color: '#FF99E9' }]}>{slides[step].tag}</Text>
+        <Text style={[s.label, { color: colors.pink }]}>{slides[step].tag}</Text>
         <Text
           style={[
             s.title,

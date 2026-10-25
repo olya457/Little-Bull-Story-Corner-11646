@@ -24,7 +24,7 @@ export function Friends({ navigation }: TabProps<'Friends'>) {
     <Screen>
       <Header title="Game With Friends" subtitle="Party game for teams" />
       <LinearGradient
-        colors={['#301660', '#150D35']}
+        colors={['#3167C4', '#087581']}
         style={[s.card, s.center]}
       >
         <StoryArt
@@ -32,7 +32,7 @@ export function Friends({ navigation }: TabProps<'Friends'>) {
           style={{ width: 230, height: 200 }}
         />
         <Text style={[s.title, { fontFamily: 'Georgia', fontSize: 25 }]}>
-          Explain It, Little Bull!
+          Explain It, Bully Tales!
         </Text>
         <Text style={[s.body, { textAlign: 'center' }]}>
           Describe words. Race the clock. Win glory.
@@ -63,7 +63,7 @@ export function Friends({ navigation }: TabProps<'Friends'>) {
                 justifyContent: 'center',
               }}
             >
-              <Text style={{ color: 'white', fontWeight: '700' }}>{i + 1}</Text>
+              <Text style={{ color: colors.onAccent, fontWeight: '700' }}>{i + 1}</Text>
             </View>
             <View style={{ flex: 1 }}>
               <Text style={[s.heading, { fontSize: 15 }]}>{title}</Text>
@@ -254,7 +254,7 @@ export function Game({ navigation, route }: Props<'Game'>) {
     return (
       <Screen>
         <LinearGradient
-          colors={['#3F1F75', '#160D31']}
+          colors={['#126C9C', '#1A588F']}
           style={[s.card, s.center, { paddingTop: 25 }]}
         >
           <Text style={s.label}>
@@ -440,7 +440,7 @@ export function Game({ navigation, route }: Props<'Game'>) {
             </View>
             <PageReveal animationKey={word}>
               <LinearGradient
-                colors={['#302941', '#171224']}
+                colors={['#2657A9', '#243B87']}
                 style={[s.card, s.center, { minHeight: compact ? 120 : 150 }]}
               >
                 <Text style={s.label}>Explain this word</Text>

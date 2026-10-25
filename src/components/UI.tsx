@@ -24,7 +24,7 @@ import {
   useMotionEnabled,
 } from './Motion';
 import { assets } from '../assets';
-import { colors, gradient, styles as s } from '../theme';
+import { colors, gradient, backgroundGradient, styles as s } from '../theme';
 export function Screen({
   children,
   scroll = true,
@@ -44,8 +44,8 @@ export function Screen({
   ];
   return (
     <GradientSurface
-      colors={['#211548', '#0C0926', '#09071F']}
-      locations={[0, 0.28, 1]}
+      colors={backgroundGradient}
+      locations={[0, 0.52, 1]}
       style={{ flex: 1 }}
     >
       <StorySparkles />
@@ -131,6 +131,7 @@ export function Button({
       <Animated.View
         style={[
           ui.button,
+          secondary && { borderWidth: 1, borderColor: colors.border },
           !secondary && !danger && ui.glow,
           { transform: [{ scale }] },
         ]}
@@ -139,7 +140,7 @@ export function Button({
           pointerEvents="none"
           colors={
             danger
-              ? ['#7B2249', '#49233E']
+              ? ['#913151', '#702340']
               : secondary
               ? [colors.field, colors.field]
               : gradient
@@ -150,7 +151,7 @@ export function Button({
         />
         <Text
           style={{
-            color: danger ? '#FF98B7' : colors.text,
+            color: secondary || danger ? colors.text : colors.onAccent,
             fontSize: 14,
             lineHeight: 20,
             fontWeight: '600',
@@ -214,7 +215,7 @@ export function Field({
     <View style={{ gap: 6, flexGrow: 1, flexShrink: 1, minWidth: 0 }}>
       {label && <Text style={s.small}>{label}</Text>}
       <TextInput
-        placeholderTextColor="#77708F"
+        placeholderTextColor={colors.muted}
         selectionColor={colors.pink}
         {...props}
         style={[
@@ -356,7 +357,7 @@ export function Sheet({
       <View
         style={{
           flex: 1,
-          backgroundColor: '#050315BB',
+          backgroundColor: '#05263ABB',
           justifyContent: 'flex-end',
         }}
       >
@@ -371,7 +372,7 @@ export function Sheet({
           <SafeAreaView
             edges={['bottom']}
             style={{
-              backgroundColor: '#211A45',
+              backgroundColor: colors.surface,
               borderTopLeftRadius: 26,
               borderTopRightRadius: 26,
               maxHeight: height * 0.85,
@@ -389,7 +390,7 @@ export function Sheet({
                   height: 4,
                   width: 36,
                   borderRadius: 4,
-                  backgroundColor: '#75678F',
+                  backgroundColor: colors.muted,
                   alignSelf: 'center',
                 }}
               />
@@ -429,7 +430,7 @@ const ui = StyleSheet.create({
     justifyContent: 'center',
   },
   glow: {
-    shadowColor: '#EE49DA',
+    shadowColor: '#FFB447',
     shadowOffset: { width: 0, height: 8 },
     shadowOpacity: 0.32,
     shadowRadius: 14,
@@ -439,7 +440,7 @@ const ui = StyleSheet.create({
     height: 40,
     width: 40,
     borderRadius: 22,
-    backgroundColor: '#FFFFFF0C',
+    backgroundColor: colors.field,
     alignItems: 'center',
     justifyContent: 'center',
   },

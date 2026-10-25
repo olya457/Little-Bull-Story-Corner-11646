@@ -49,7 +49,7 @@ function TabIcon({
         justifyContent: 'center',
       }}
     >
-      <Icon size={20} color={focused ? 'white' : '#85809E'} strokeWidth={1.7} />
+      <Icon size={20} color={focused ? colors.onAccent : colors.muted} strokeWidth={1.7} />
     </LinearGradient>
   );
 }
@@ -61,8 +61,8 @@ function Home() {
         headerShown: false,
         sceneStyle: { backgroundColor: colors.background },
         tabBarStyle: {
-          backgroundColor: '#15112D',
-          borderTopColor: '#352957',
+          backgroundColor: colors.surface,
+          borderTopColor: colors.border,
           borderTopWidth: 1,
           height: 65 + Math.max(8, insets.bottom),
           paddingTop: 8,
@@ -70,8 +70,8 @@ function Home() {
           borderTopLeftRadius: 25,
           borderTopRightRadius: 25,
         },
-        tabBarActiveTintColor: '#EBA5F4',
-        tabBarInactiveTintColor: '#8B819F',
+        tabBarActiveTintColor: colors.pink,
+        tabBarInactiveTintColor: colors.muted,
         tabBarLabelStyle: { fontSize: 9, marginTop: 3 },
         tabBarIcon: ({ focused }) => (
           <TabIcon name={route.name} focused={focused} />

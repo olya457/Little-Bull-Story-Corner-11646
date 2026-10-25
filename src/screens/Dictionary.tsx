@@ -59,7 +59,7 @@ export function Dictionary({ navigation }: TabProps<'Dictionary'>) {
       />
       {!search && (
         <LinearGradient
-          colors={['#932CE9', '#EE40BF']}
+          colors={['#087581', '#245FC0']}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 1 }}
           style={[s.card, { marginTop: 16 }]}
@@ -99,7 +99,7 @@ export function Dictionary({ navigation }: TabProps<'Dictionary'>) {
         {filtered.length === 0 ? (
           <Empty
             title="No terms found"
-            description="Little Bull searched every shelf. Try another word."
+            description="Bully Tales searched every shelf. Try another word."
           />
         ) : (
           filtered.map(t => (
@@ -175,7 +175,7 @@ export function Term({ route, navigation }: Props<'Term'>) {
   return (
     <Screen>
       <Header title="Dictionary" back={() => navigation.goBack()} />
-      <LinearGradient colors={['#432571', '#291238']} style={s.card}>
+      <LinearGradient colors={['#126C9C', '#244B96']} style={s.card}>
         <Text style={s.label}>{term.category}</Text>
         <Text style={[s.title, { fontFamily: 'Georgia', fontSize: 32 }]}>
           {term.title}
@@ -191,10 +191,10 @@ export function Term({ route, navigation }: Props<'Term'>) {
         <View
           style={[
             s.card,
-            { backgroundColor: '#121B38', borderColor: '#264365' },
+            { backgroundColor: '#124873', borderColor: '#4B8CAB' },
           ]}
         >
-          <Text style={[s.body, { color: '#B9C8E9' }]}>{term.example}</Text>
+          <Text style={[s.body, { color: '#D3E6FF' }]}>{term.example}</Text>
         </View>
       </View>
     </Screen>
@@ -422,7 +422,7 @@ export function Quiz({ navigation, route }: Props<'Quiz'>) {
                     borderColor:
                       selected === option ? colors.pink : colors.border,
                     backgroundColor:
-                      selected === option ? '#673286' : colors.field,
+                      selected === option ? '#146B96' : colors.field,
                   },
                 ]}
               >

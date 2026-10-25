@@ -119,7 +119,7 @@ export function LibraryScreen({ navigation }: TabProps<'Library'>) {
     <Screen>
       <Header
         title="Library"
-        subtitle="Good morning, reader"
+        subtitle="Bully Tales · Your reading corner"
         action={
           <Button title="＋" onPress={() => navigation.navigate('BookForm')} />
         }
@@ -143,7 +143,7 @@ export function LibraryScreen({ navigation }: TabProps<'Library'>) {
       {current && !search && (
         <Pressable
           onPress={() => navigation.navigate('BookDetails', { id: current.id })}
-          style={[s.card, { marginTop: 16, backgroundColor: '#382050' }]}
+          style={[s.card, { marginTop: 16, backgroundColor: '#174D99' }]}
         >
           <View style={s.row}>
             <Cover book={current} />
@@ -182,7 +182,7 @@ export function LibraryScreen({ navigation }: TabProps<'Library'>) {
                 borderRadius: 19,
                 overflow: 'hidden',
                 borderWidth: 2,
-                borderColor: collection === c ? '#F4C7FF' : 'transparent',
+                borderColor: collection === c ? '#FFD166' : 'transparent',
               }}
             >
               <ImageBackground
@@ -221,7 +221,7 @@ export function LibraryScreen({ navigation }: TabProps<'Library'>) {
         {list.length === 0 ? (
           <Empty
             title="No books here yet"
-            description="Little Bull is waiting for a new story."
+            description="Bully Tales is waiting for a new story."
             action={
               <Button
                 title="Add a book"

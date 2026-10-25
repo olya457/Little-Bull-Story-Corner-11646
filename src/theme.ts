@@ -1,19 +1,21 @@
 import { StyleSheet } from 'react-native';
 export const colors = {
-  background: '#09071F',
-  surface: '#19162F',
-  field: '#26223F',
-  border: '#332C51',
-  text: '#F4F0FF',
-  muted: '#9A94AE',
-  pink: '#F147D8',
-  purple: '#A24DFF',
-  blue: '#575DFF',
-  cyan: '#35CBF4',
-  danger: '#F06494',
-  green: '#36D77A',
+  background: '#1746A2',
+  surface: '#123C86',
+  field: '#103573',
+  border: '#557FC0',
+  text: '#FFFFFF',
+  muted: '#D3E6FF',
+  pink: '#FFD166',
+  purple: '#146B96',
+  blue: '#3972DF',
+  cyan: '#79E6F0',
+  danger: '#FFB8CB',
+  green: '#75EDB0',
+  onAccent: '#173447',
 };
-export const gradient = ['#F147D8', '#B34EF7', '#575DFF'];
+export const gradient = ['#FFE28A', '#FFD166', '#FFAE57'];
+export const backgroundGradient = ['#245CC5', '#126C9C', '#087581'];
 export const styles = StyleSheet.create({
   row: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   between: {
@@ -33,7 +35,7 @@ export const styles = StyleSheet.create({
   small: { fontSize: 11, lineHeight: 16, color: colors.muted },
   label: {
     fontSize: 10,
-    color: '#D69BED',
+    color: '#FFE49A',
     letterSpacing: 1.6,
     fontWeight: '600',
     textTransform: 'uppercase',
@@ -43,7 +45,7 @@ export const styles = StyleSheet.create({
     borderRadius: 22,
     padding: 17,
     borderWidth: 1,
-    borderColor: '#FFFFFF10',
+    borderColor: '#FFFFFF30',
     gap: 12,
   },
   input: {
@@ -54,7 +56,7 @@ export const styles = StyleSheet.create({
     color: colors.text,
     fontSize: 14,
     borderWidth: 1,
-    borderColor: '#FFFFFF0B',
+    borderColor: '#FFFFFF35',
     minHeight: 46,
   },
   section: { gap: 12, marginTop: 20 },

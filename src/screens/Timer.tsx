@@ -103,7 +103,7 @@ export function Timer({ navigation }: TabProps<'Timer'>) {
             />
           </View>
         )}
-        <Text style={s.label}>Little Bull</Text>
+        <Text style={s.label}>Bully Tales</Text>
         <View style={s.row}>
           {assets.bulls.map((a, i) => (
             <Pressable
@@ -166,7 +166,7 @@ export function Timer({ navigation }: TabProps<'Timer'>) {
           <View style={s.between}>
             <View>
               <Text style={s.heading}>Reading goal</Text>
-              <Text style={s.small}>Little Bull cheers when you hit it</Text>
+              <Text style={s.small}>Bully Tales cheers when you hit it</Text>
             </View>
             <Switch
               value={goalOn}
@@ -288,7 +288,7 @@ export function Reading({ navigation, route }: Props<'Reading'>) {
   return (
     <ImageBackground source={assets.scenes[config.scene]} style={{ flex: 1 }}>
       <LinearGradient
-        colors={['#08051A50', '#08051A00', '#08051ACA']}
+        colors={['#05263A50', '#05263A00', '#05263ACA']}
         style={{ flex: 1 }}
       >
         <SafeAreaView style={{ flex: 1 }}>
@@ -333,7 +333,7 @@ export function Reading({ navigation, route }: Props<'Reading'>) {
                     borderColor: colors.pink,
                     alignItems: 'center',
                     justifyContent: 'center',
-                    backgroundColor: '#130C4288',
+                    backgroundColor: '#07394FBB',
                   }}
                 >
                   <Text

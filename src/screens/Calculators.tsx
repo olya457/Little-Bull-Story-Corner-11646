@@ -211,7 +211,7 @@ export function Calculators({ navigation }: TabProps<'Calculators'>) {
       {result ? (
         <PageReveal animationKey={result.value}>
           <LinearGradient
-            colors={['#4B215B', '#181333']}
+            colors={['#126C9C', '#18558B']}
             style={[s.card, s.section]}
           >
             <View style={s.row}>
@@ -226,7 +226,7 @@ export function Calculators({ navigation }: TabProps<'Calculators'>) {
             <Text style={s.label}>{result.kind}</Text>
             <Text style={[s.title, { fontSize: 36 }]}>{result.value}</Text>
             <Text style={s.body}>{result.detail}</Text>
-            <View style={[s.card, { backgroundColor: '#110D2B' }]}>
+            <View style={[s.card, { backgroundColor: '#153C79' }]}>
               <Text style={s.small}>Projected reading progress</Text>
               <View
                 style={{
@@ -241,8 +241,8 @@ export function Calculators({ navigation }: TabProps<'Calculators'>) {
                     key={i}
                     colors={
                       i === result.bars.length - 1
-                        ? ['#FA8FE6', '#9954FE']
-                        : ['#784FD4', '#34246D']
+                        ? ['#FFE28A', '#FFAE57']
+                        : ['#79E6F0', '#3972DF']
                     }
                     style={{
                       flex: 1,
@@ -286,7 +286,7 @@ export function Calculators({ navigation }: TabProps<'Calculators'>) {
                 secondary
                 onPress={() => {
                   Share.share({
-                    message: `${result.kind}: ${result.value}\n${result.detail}\nLittle Bull Story Corner`,
+                    message: `${result.kind}: ${result.value}\n${result.detail}\nBully Tales`,
                   }).catch(() => Alert.alert('Unable to share'));
                 }}
               />
@@ -298,7 +298,7 @@ export function Calculators({ navigation }: TabProps<'Calculators'>) {
         <View style={{ marginTop: 22 }}>
           <Empty
             title="Your result appears here"
-            description="Fill in the fields and tap Calculate. Little Bull will crunch the numbers."
+            description="Fill in the fields and tap Calculate. Bully Tales will crunch the numbers."
           />
         </View>
       )}
